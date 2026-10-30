@@ -1,0 +1,2 @@
+SELECT COUNT(*) AS `保存件数`                
+FROM phone_number_ocr.phone_ocr_history;                

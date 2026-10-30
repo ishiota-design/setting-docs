@@ -1,0 +1,9 @@
+SELECT
+phone_number AS `電話番号`,
+display_date AS `表示日時`,
+detection_count AS `検出回数`,
+spam AS `迷惑の有無`,
+note AS `備考`,
+updated_at AS `DB更新日時`
+FROM phone_number_ocr.phone_ocr_history
+ORDER BY display_order, phone_number;       
